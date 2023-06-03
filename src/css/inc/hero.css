@@ -1,0 +1,31 @@
+/* Nyvin Cable section start */
+.nyvin-cable-section{
+    background-image: url('/images/home-nyvin-bg.jpg');
+    @apply  px-6 bg-no-repeat bg-cover md:pb-24;
+}
+.uninyvin-cable{
+    @apply md:grid md:grid-cols-2;
+}
+.uninyvin-cable_infoarea > h1{
+  @apply font-medium text-[#FFFFFF] tracking-widest w-[150px]
+   text-[45px] leading-[54px] pt-12 ;
+  font-family: 'Monomaniac One', sans-serif;
+}
+.uninyvin-cable_infoarea > .hr-black{
+    @apply w-[60px] h-[5px] border-2  border-black bg-black mb-5 mt-5;
+}
+.uninyvin-cable_infoarea > P{
+    @apply text-lg  text-[#FFFFFF] tracking-[1.5px];
+}
+.uninyvin-cable_infoarea > ul{
+    @apply w-[85%] mt-8 text-justify float-right pr-2;
+}
+.uninyvin-cable_infoarea > ul > li{
+    @apply text-lg text-[#FFFFFF] list-disc;
+}
+.uninyvin-cable_imagearea > img{
+    @apply pt-16 pb-16 md:mt-20;
+}
+/* Nyvin Cable section end */
+
+

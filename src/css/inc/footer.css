@@ -1,0 +1,36 @@
+.footer-container{
+    @apply pb-16;
+}
+.about-footer_section,.product-footer_section, .industry-footer_section, .Careers-footer_section{
+    @apply hidden md:block;
+} 
+.footer-container{
+    @apply w-[75%] mx-auto md:grid md:grid-cols-5 ;
+}
+.contact_section > h1{
+    @apply text-xl text-black mt-16 md:mt-0;
+}
+.contact_section > p{
+    @apply text-sm mt-4;
+}
+.contactno, .emailinfo, .footerimgSection{
+    @apply mt-4
+}
+.footerimgSection{
+    @apply flex gap-3;
+}
+.footerimgSection > span > img{
+    @apply w-9 h-9;
+}
+.container_noPad-Section{
+    @apply bg-[#EEEEEE] py-10 ;
+}
+.container__noPad{
+    @apply mx-8 ;
+} 
+.container__noPad > span > img{
+    @apply w-[134px] h-[57.98px] mx-auto;
+}
+.container__noPad > p{
+    @apply text-center pt-6 text-sm;
+}

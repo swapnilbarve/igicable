@@ -1,0 +1,84 @@
+
+  
+  #menu{
+   @apply bg-[#242424] h-full w-[300px] fixed top-0 right-0;
+  }
+  
+  #menu ul{
+    @apply m-0 p-0;
+   }
+   #menu ul li{
+    @apply mx-[10px] list-none block leading-[30px] p-3 border-b-2 border-gray-700;
+   }
+  
+
+  
+  #menu ul li a{
+    padding: 6px 0;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.1s;
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-property: all;
+    -moz-transition-duration: 0.1s;
+    -moz-transition-timing-function: ease-out;
+    -ms-transition-property: all;
+    -ms-transition-duration: 0.1s;
+    -ms-transition-timing-function: ease-out;
+    -o-transition-property: all;
+    -o-transition-duration: 0.1s;
+    -o-transition-timing-function: ease-out;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-out;
+  }
+  
+
+/* menu icon animation section  */
+.menu-icon {
+    @apply inline-block cursor-pointer;
+}
+  
+  .bar{
+    @apply w-[30px] h-[4px] bg-white my-[6px];
+    transition: 0.4s;
+  }
+  
+  .change .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-8px, 6px);
+  }
+  
+  .change .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .change .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-8px, -6px);
+  }
+
+  
+/* menu icon animation section  */
+  
+#menu ul li a:hover{
+    @apply text-red-700;
+}
+  
+  .menu_icon{
+    @apply fixed right-[20px] top-[20px] text-white w-[30px] h-[30px];
+} 
+
+ .header-area{
+    @apply flex  bg-black w-full;
+ }
+ .header-area > .logo > img{
+    @apply w-44;
+ }
+
+  .dropdown{
+    @apply hidden;
+  }

@@ -1,0 +1,19 @@
+/* images section start */
+.customers__Section{
+    @apply px-6 bg-[#f5f5f5];
+}
+.customers__Section > .hr-black{
+    @apply w-[20%] h-[5px] border-2  border-red-800 bg-red-800 mb-4 mt-1;
+}
+.customers__Section > h1{
+    @apply  font-medium text-black text-[45px] leading-[54px] pt-8 pb-8;
+    font-family: 'Monomaniac One', sans-serif; 
+}
+.company__images{
+    @apply grid grid-cols-2 md:grid-cols-5 pt-8;
+}
+.company__images > li{
+    @apply w-[85%];
+    filter: grayscale(100%);
+}
+/* images section end */

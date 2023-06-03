@@ -1,0 +1,25 @@
+/* Rotating machine cable section start */
+.rotating_Machine-section{
+    background-image: url('./images/hom-motor-bg.jpg');
+    @apply px-6;
+}
+.rotating_Machine{
+    @apply md:grid md:grid-cols-2;
+}
+.rotating_Machine-infoarea > h1{
+    @apply font-medium text-black text-[45px] leading-[54px] pt-12 pb-6 ;
+    font-family: 'Monomaniac One', sans-serif;
+}
+.rotating_Machine-infoarea > .hr-black{
+    @apply w-[20%] h-[5px] border-2  border-[#9d2122] bg-[#9d2122] mb-2 mt-1;
+}
+.rotating_Machine-infoarea > p{
+    @apply  text-lg  text-black text-justify py-4;
+}
+.rotating_Machine-imagearea{
+    @apply md:relative;
+}
+.rotating_Machine-imagearea > img{
+    @apply py-11 w-[300px] md:absolute md:top-[240px] md:left-8;
+}
+/* Rotating machine cable section end */

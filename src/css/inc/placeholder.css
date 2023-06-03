@@ -1,0 +1,35 @@
+/* Place holder classes for development  */
+.ph {
+  @apply text-white px-2;
+}
+
+.ph-25 {
+  @apply ph;
+  height: 25px;
+}
+
+.ph-50 {
+  @apply ph;
+  height: 50px;
+}
+
+.ph-100 {
+  @apply ph;
+  height: 100px;
+}
+
+.ph-200 {
+  @apply ph;
+  height: 200px;
+}
+
+.ph-250 {
+  @apply ph;
+  height: 250px;
+}
+
+.ph-500 {
+  @apply ph;
+  height: 500px;
+}
+

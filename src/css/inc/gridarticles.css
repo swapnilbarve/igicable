@@ -1,0 +1,24 @@
+
+/* ups section start */
+.ups-section{
+    background-image: url('./images/home-ups-bg.jpg');
+    @apply px-6;
+}
+.ups-Inverters{
+    @apply md:grid md:grid-cols-2;
+}
+.ups-Inverter-info > h1{
+    @apply  font-medium text-black text-[45px] leading-[54px] pt-8 pb-6;
+    font-family: 'Monomaniac One', sans-serif; 
+}
+.ups-Inverter-info > .hr-black{
+    @apply w-[20%] h-[5px] border-2  border-red-800 bg-red-800 mb-4 mt-1;
+}
+.ups-Inverter-info > p{
+    @apply  text-lg  text-black text-justify py-4;
+}
+
+.ups-Inverter-image > img{
+    @apply pb-16 md:w-[200px] md:h-[300px] md:float-right md:mt-24;
+}
+/* ups section end */

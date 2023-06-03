@@ -1,0 +1,27 @@
+/* silicon cable section start */
+.unisil-section{
+    background-image: url('/images/Unisil-bg.jpg');
+    @apply px-6 pb-16;
+}
+.unisil-cable{
+    @apply md:w-[80%] mx-auto;
+}
+.unisil-cable > h1{
+    @apply w-[50%] font-medium text-[#FFFFFF] text-[45px] leading-[54px] pt-12 pb-6;
+    font-family: 'Monomaniac One', sans-serif;
+}
+.unisil-cable > .hr-black{
+    @apply w-[20%] h-[5px] border-2  border-red-800 bg-red-800 mb-6 mt-1;
+}
+.unisil-cable > p{
+    @apply text-white text-lg text-justify;
+}
+
+.unisil-cable > ul{
+    @apply ml-10 w-[85%] text-justify mt-8 ;
+} 
+.unisil-cable > ul > li{
+    @apply text-lg text-[#FFFFFF] list-disc;
+} 
+
+/* silicon cable section end */

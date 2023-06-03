@@ -1,0 +1,24 @@
+.menu-side-bar-container {
+  @apply mx-auto;
+}
+
+.menu-side-bar-container ul {
+  @apply list-inline m-0;
+}
+
+.menu-side-bar-container ul li {
+  @apply list-inline-item;
+}
+
+.menu-side-bar-container ul li a {
+  @apply p-2 d-block;
+  text-decoration: none;
+}
+
+.menu-side-bar-container ul li a:hover {
+  @apply bg-danger text-white;
+}
+
+.menu-side-bar-container ul.sub-menu {
+  display: none;
+}
